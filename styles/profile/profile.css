@@ -1,0 +1,66 @@
+header.menu {
+    height: 80px;
+    position: fixed;  /*menu fixo qd scrola pagina*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    cursor: auto;  /*tirou o padrão do bg rosa*/
+}
+.container {
+    margin-top: 100px;   /*container fica por baixo do menu fixo*/
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+.container :not(:first-child) {  /*não no primeiro*/
+    margin-top: 15px;
+}
+.photo, .description, .counter__friend, .counter__community {
+    width: 100%;
+    background: #ffffff;
+    height: 300px;
+    border-radius: 10px;
+} 
+.photo {  
+    height: 500px;  /*sobrepõe a altura anterior pq vem depois*/
+    border-top-right-radius: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+}
+.photo__avatar > img {
+    border-radius: 15px;
+}
+.photo__tools > div > i {  /*icones são simbolos*/
+    margin-right: 15px;
+}
+.photo__name > h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.description {
+    height: 400px;
+    max-width: 520px;
+}
+.counter__friend, .counter__community {
+    height: 350px;
+    width: 340px;
+}
+header > nav {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;  /*para elementos não ficar nas  beiradas*/
+    margin: auto;
+
+}
+header > nav > #title > h1 {
+    font-size: 50px;
+}
+header > nav > #hamburguer > label {
+    font-size: 30px;
+}

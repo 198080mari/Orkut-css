@@ -1,0 +1,83 @@
+.container {
+    width: 80%;  /*80% da janela de vizualização*/
+    max-width: 650px;  /*não estica*/
+    height: 70vh;  /*70% janela de vizualização*/
+    border-radius: 20px;
+    margin: auto;  /*centraliza na janela de vizualização*/
+    margin-top: 5%;
+    background: #ffffff;
+    box-shadow: 10px 10px 25px -4px rgba(87,81,81,0.74);
+    -webkit-box-shadow: 10px 10px 25px -4px rgba(87,81,81,0.74);
+    -moz-box-shadow: 10px 10px 25px -4px rgba(87,81,81,0.74);
+}
+.fields {
+    margin: 5% 10%;  /*responsivo*/
+}
+.fields__title {
+    display: flex;
+    justify-content: center;  /*responsivo*/
+}
+#field__title {
+    font-size: 18px;
+    font-weight: 900;
+    color: rgb(70, 69, 69);
+    margin-bottom: 5%;
+    margin-top: 20px;
+}
+.fields__textboxes {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.fields__textboxes > input {
+    height: 40px;
+    border: 1px solid rgb(216, 214, 214);
+    border-radius: 25px;
+    margin-bottom: 5%;
+    text-align: center;
+    color: rgb(240, 233, 233);
+}
+.fields__remember {
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+#btnlogin {
+    width: 100%;
+    border: none;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.fields__recovery > a, .fields__create > a {  /*ancoras dessas classes*/
+    text-decoration: none;
+}
+.fields__recovery > a {
+    color: rgb(114, 112, 112);
+}
+.fields__create > a {
+    color: rgb(70, 67, 67);
+}
+.fields__recovery {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20%;
+}
+.fields__create {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 100px;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.logo > img {
+    height: 50px;
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.cdnfonts.com/css/segoe-ui-4');
+
+:root {
+    background: #fff9fe;
+    font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+.orkut-font-color {
+    color: #e8258e;
+}
+.orkut-font-default {
+    color: rgb(29, 28, 28);
+}
+.orkut-link {
+    text-decoration: none;
+    font-weight: 550;
+    color: rgb(29, 28, 28);
+}
+.orkut-button-bg {
+    background: #e8258e;
+    cursor: pointer;
+}
